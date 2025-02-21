@@ -13,14 +13,14 @@ msgstr ""
 "Project-Id-Version: CUPS 2.3\n"
 "Report-Msgid-Bugs-To: https://github.com/openprinting/cups/issues\n"
 "POT-Creation-Date: 2021-03-07 10:33-0500\n"
-"PO-Revision-Date: 2024-05-04 17:30+0900\n"
+"PO-Revision-Date: 2025-02-15 17:51+0900\n"
 "Last-Translator: OPFC TRANSCUPS <opfc-transcups@sourceforge.jp>\n"
 "Language-Team: Japanese - OPFC TRANSCUPS <opfc-transcups@sourceforge.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.5\n"
 
 msgid "\t\t(all)"
 msgstr "\t\t(すべて)"
@@ -357,7 +357,7 @@ msgstr ""
 msgid "      %s  Bad UTF-8 \"%s\" translation string for option %s."
 msgstr "      %s  不正な UTF-8 \"%s\" 翻訳文字列 (オプション %s 用) です。"
 
-#, c-format
+#, fuzzy, c-format
 msgid "      %s  Bad cupsFilter value \"%s\"."
 msgstr "      %s  不正な値が cupsFilter に設定されています。 \"%s\""
 
@@ -1915,270 +1915,290 @@ msgid "-M manufacturer         Set manufacturer name (default=Test)"
 msgstr "-M manufacturer         製造元名を設定する（デフォルト=Test）"
 
 msgid "-N name                 Match service name to literal name value"
-msgstr ""
+msgstr "-N name                 サービス名をリテラルなname値とマッチする"
 
 msgid "-P destination          Show status for the specified destination"
-msgstr ""
+msgstr "-P destination          指定されたdestinationのステータスを表示する"
 
 msgid "-P destination          Specify the destination"
-msgstr ""
+msgstr "-P destination          destinationを指定する"
 
 msgid ""
 "-P filename.plist       Produce XML plist to a file and test report to "
 "standard output"
 msgstr ""
+"-P filename.plist       XML plistをファイルに出力しテストレポートを標準出力に"
+"出力する"
 
 msgid "-P filename.ppd         Load printer attributes from PPD file"
-msgstr ""
+msgstr "-P filename.ppd         プリンター属性をPPDファイルから読み込む"
 
 msgid "-P number[-number]      Match port to number or range"
-msgstr ""
+msgstr "-P number[-number]      ポートを番号または範囲とマッチする"
 
 msgid "-P page-list            Specify a list of pages to print"
-msgstr ""
+msgstr "-P page-list            印刷するページのリストを指定する"
 
 msgid "-R                      Show the ranking of jobs"
-msgstr ""
+msgstr "-R                      ジョブのランキングを表示する"
 
 msgid "-R name-default         Remove the default value for the named option"
-msgstr ""
+msgstr "-R name-default         指定されたオプションのデフォルト値を削除する"
 
 msgid "-R root-directory       Set alternate root"
-msgstr ""
+msgstr "-R root-directory       代替のrootを指定する"
 
 msgid "-S                      Test with encryption using HTTPS"
-msgstr ""
+msgstr "-S                      HTTPSを用いて暗号化をテストする"
 
 msgid "-S filename.strings     Set strings file"
-msgstr ""
+msgstr "-S filename.strings     文字列ファイルを指定する"
 
 msgid "-T seconds              Set the browse timeout in seconds"
-msgstr ""
+msgstr "-T seconds              ブラウズタイムアウトを秒で指定する"
 
 msgid "-T seconds              Set the receive/send timeout in seconds"
-msgstr ""
+msgstr "-T seconds              受送信のタイムアウトを秒で設定する"
 
 msgid "-T title                Specify the job title"
-msgstr ""
+msgstr "-T title                ジョブタイトルを指定する"
 
 msgid "-U username             Specify the username to use for authentication"
-msgstr ""
+msgstr "-U username             認証に使用されるユーザー名を指定する"
 
 msgid "-U username             Specify username to use for authentication"
-msgstr ""
+msgstr "-U username             認証に使用されるユーザー名を指定する"
 
 msgid "-V version              Set default IPP version"
-msgstr ""
+msgstr "-V version              デフォルトのIPPバージョンを設定する"
 
 msgid "-W completed            Show completed jobs"
-msgstr ""
+msgstr "-W completed            終了したジョブを表示する"
 
 msgid "-W not-completed        Show pending jobs"
-msgstr ""
+msgstr "-W not-completed        ペンディングなジョブを表示する"
 
 msgid ""
 "-W {all,none,constraints,defaults,duplex,filters,profiles,sizes,"
 "translations}\n"
 "                          Issue warnings instead of errors"
 msgstr ""
+"-W {all,none,constraints,defaults,duplex,filters,profiles,sizes,"
+"translations}\n"
+"                          エラーの代わりにワーニングを起こす"
 
 msgid "-X                      Produce XML plist instead of plain text"
-msgstr ""
+msgstr "-X                      プレーンテキストの代わりにXML plistを出力する"
 
 msgid "-a                      Cancel all jobs"
-msgstr ""
+msgstr "-a                      すべてのジョブをキャンセルする"
 
 msgid "-a                      Show jobs on all destinations"
-msgstr ""
+msgstr "-a                      すべてのdestinationのジョブを表示する"
 
 msgid "-a [destination(s)]     Show the accepting state of destinations"
-msgstr ""
+msgstr "-a [destination(s)]     destinationの受付状態を表示する"
 
 msgid "-a filename.conf        Load printer attributes from conf file"
-msgstr ""
+msgstr "-a filename.conf        プリンター属性をconfファイルから読み込む"
 
 msgid "-c                      Make a copy of the print file(s)"
-msgstr ""
+msgstr "-c                      印刷ファイルのコピーを作成する"
 
 msgid "-c                      Produce CSV output"
-msgstr ""
+msgstr "-c                      CSV出力を行う"
 
 msgid "-c [class(es)]          Show classes and their member printers"
-msgstr ""
+msgstr "-c [class(es)]          クラスとそのメンバーのプリンターを表示する"
 
 msgid "-c class                Add the named destination to a class"
-msgstr ""
+msgstr "-c class                指定されたdestinationをクラスに追加する"
 
 msgid "-c command              Set print command"
-msgstr ""
+msgstr "-c command              印刷コマンドを設定する"
 
 msgid "-c cupsd.conf           Set cupsd.conf file to use."
-msgstr ""
+msgstr "-c cupsd.conf           使用するcupsd.confファイルを設定する"
 
 msgid "-d                      Show the default destination"
-msgstr ""
+msgstr "-d                      デフォルトのdestinationを表示する"
 
 msgid "-d destination          Set default destination"
-msgstr ""
+msgstr "-d destination          デフォルトのdestinationを設定する"
 
 msgid "-d destination          Set the named destination as the server default"
 msgstr ""
+"-d destination          指定されたdesitnationをサーバーのデフォルトにする"
 
 msgid "-d destination          Specify the destination"
-msgstr ""
+msgstr "-d destination          destinationを指定する"
 
 msgid "-d name=value           Set named variable to value"
-msgstr ""
+msgstr "-d name=value           指定された変数に値を設定する"
 
 msgid "-d regex                Match domain to regular expression"
-msgstr ""
+msgstr "-d regex                ドメインを正規表現とマッチする"
 
 msgid "-d spool-directory      Set spool directory"
-msgstr ""
+msgstr "-d spool-directory      スプールディレクトリを指定する"
 
 msgid "-e                      Show available destinations on the network"
 msgstr ""
+"-e                      ネットワーク上の利用可能なdestinationを表示する"
 
 msgid "-f                      Run in the foreground."
-msgstr ""
+msgstr "-f                      フォアグラウンドで実行する"
 
 msgid "-f filename             Set default request filename"
-msgstr ""
+msgstr "-f filename             デフォルトのリクエストファイル名を指定する"
 
 msgid "-f type/subtype[,...]   Set supported file types"
-msgstr ""
+msgstr "-f type/subtype[,...]   サポートされるファイル形式を指定する"
 
 msgid "-h                      Show this usage message."
-msgstr ""
+msgstr "-h                      利用方法のメッセージを表示する"
 
 msgid "-h                      Validate HTTP response headers"
-msgstr ""
+msgstr "-h                      HTTPレスポンスヘッダーを検証する"
 
 msgid "-h regex                Match hostname to regular expression"
-msgstr ""
+msgstr "-h regex                ホスト名を正規表現にマッチする"
 
 msgid "-h server[:port]        Connect to the named server and port"
-msgstr ""
+msgstr "-h server[:port]        指定されたサーバーとポートに接続する"
 
 msgid "-i iconfile.png[,...]   Set icon file(s)"
-msgstr ""
+msgstr "-i iconfile.png[,...]   アイコンファイルを設定する"
 
 msgid "-i id                   Specify an existing job ID to modify"
-msgstr ""
+msgstr "-i id                   変更したい既存ジョブのIDを指定する"
 
 msgid "-i ppd-file             Specify a PPD file for the printer"
-msgstr ""
+msgstr "-i ppd-file             プリンターのPPDファイルを指定する"
 
 msgid ""
 "-i seconds              Repeat the last file with the given time interval"
-msgstr ""
+msgstr "-i seconds              最後のファイルを与えられた時間間隔で繰り返す"
 
 msgid "-k                      Keep job spool files"
-msgstr ""
+msgstr "-k                      ジョブのスプールファイルを保持する"
 
 msgid "-l                      List attributes"
-msgstr ""
+msgstr "-l                      属性をリストする"
 
 msgid "-l                      Produce plain text output"
-msgstr ""
+msgstr "-l                      プレーンテキスト出力を行う"
 
 msgid "-l                      Run cupsd on demand."
-msgstr ""
+msgstr "-l                      cupsdをオンデマンドで起動する。"
 
 msgid "-l                      Show supported options and values"
-msgstr ""
+msgstr "-l                      サポートされているオプションと値を表示する"
 
 msgid "-l                      Show verbose (long) output"
-msgstr ""
+msgstr "-l                      冗長な（長い）出力をする"
 
 msgid "-l location             Set location of printer"
-msgstr ""
+msgstr "-l location             プリンターの場所を設定する"
 
 msgid ""
 "-m                      Send an email notification when the job completes"
-msgstr ""
+msgstr "-m                      ジョブが完了した場合E-mail通知を送る"
 
 msgid "-m                      Show models"
-msgstr ""
+msgstr "-m                      モデルを表示する"
 
 msgid ""
 "-m everywhere           Specify the printer is compatible with IPP Everywhere"
 msgstr ""
+"-m everywhere           プリンターがIPP Everywhere互換であることを指定する"
 
 msgid "-m model                Set model name (default=Printer)"
-msgstr ""
+msgstr "-m model                モデル名を設定する（デフォルト＝Printer）"
 
 msgid ""
 "-m model                Specify a standard model/PPD file for the printer"
-msgstr ""
+msgstr "-m model                プリンターの標準モデル/PPDファイルを指定する"
 
 msgid "-n count                Repeat the last file the given number of times"
-msgstr ""
+msgstr "-n count                最後のファイルを指定された回数だけ繰り返す"
 
 msgid "-n hostname             Set hostname for printer"
-msgstr ""
+msgstr "-n hostname             プリンターのホスト名を設定する"
 
 msgid "-n num-copies           Specify the number of copies to print"
-msgstr ""
+msgstr "-n num-copies           印刷部数を設定する"
 
 msgid "-n regex                Match service name to regular expression"
-msgstr ""
+msgstr "-n regex                サービス名を正規表現とマッチする"
 
 msgid ""
 "-o Name=Value           Specify the default value for the named PPD option "
 msgstr ""
+"-o Name=Value           指定されたPPDオプションのデフォルト値を指定する"
 
 msgid "-o [destination(s)]     Show jobs"
-msgstr ""
+msgstr "-o [destination(s)]     ジョブを表示する"
 
 msgid ""
 "-o cupsIPPSupplies=false\n"
 "                        Disable supply level reporting via IPP"
 msgstr ""
+"-o cupsIPPSupplies=false\n"
+"                        IPP経由のサプライレベルレポートを無効化する"
 
 msgid ""
 "-o cupsSNMPSupplies=false\n"
 "                        Disable supply level reporting via SNMP"
 msgstr ""
+"-o cupsSNMPSupplies=false\n"
+"                        SNMP経由のサプライレベルレポートを無効化する"
 
 msgid "-o job-k-limit=N        Specify the kilobyte limit for per-user quotas"
 msgstr ""
+"-o job-k-limit=N        ユーザーごとのクォータをキロバイト制限で指定する"
 
 msgid "-o job-page-limit=N     Specify the page limit for per-user quotas"
-msgstr ""
+msgstr "-o job-page-limit=N     ユーザーごとのクォータをページ制限で指定する"
 
 msgid "-o job-quota-period=N   Specify the per-user quota period in seconds"
-msgstr ""
+msgstr "-o job-quota-period=N   ユーザーごとのクォータ期間を秒で指定する"
 
 msgid "-o job-sheets=standard  Print a banner page with the job"
-msgstr ""
+msgstr "-o job-sheets=standard  ジョブとともにバナーページを印刷する"
 
 msgid "-o media=size           Specify the media size to use"
-msgstr ""
+msgstr "-o media=size           利用するメディアサイズを指定する"
 
 msgid "-o name-default=value   Specify the default value for the named option"
-msgstr ""
+msgstr "-o name-default=value   指定されたオプションのデフォルト値を指定する"
 
 msgid "-o name[=value]         Set default option and value"
-msgstr ""
+msgstr "-o name[=value]         デフォルトオプションと値を設定する"
 
 msgid ""
 "-o number-up=N          Specify that input pages should be printed N-up (1, "
 "2, 4, 6, 9, and 16 are supported)"
 msgstr ""
+"-o number-up=N          入力ページの面付け（N-up）を指定（1, 2, 4, 6, 9, 16が"
+"サポート）"
 
 msgid "-o option[=value]       Specify a printer-specific option"
-msgstr ""
+msgstr "-o option[=value]       プリンター特有のオプションを指定する"
 
 msgid ""
 "-o orientation-requested=N\n"
 "                        Specify portrait (3) or landscape (4) orientation"
 msgstr ""
+"-o orientation-requested=N\n"
+"                        印刷方向をポートレート(3)またはランドスケープ(4)で指"
+"定する"
 
 msgid ""
 "-o print-quality=N      Specify the print quality - draft (3), normal (4), "
 "or best (5)"
 msgstr ""
+"-o print-quality=N      印刷品質を指定する - ドラフト (3), 標準 (4), 最良 (5)"
 
 msgid ""
 "-o printer-error-policy=name\n"
